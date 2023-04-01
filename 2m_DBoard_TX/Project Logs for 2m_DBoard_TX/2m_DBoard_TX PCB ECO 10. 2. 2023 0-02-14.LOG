@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=5V_CVDD Pin=C79_1-2
+Change Component Footprint: Designator=C59 Old Footprint=C0805 New Footprint=C0603
+Change Component Footprint: Designator=C62 Old Footprint=C0805 New Footprint=C0603
+Change component parameters: Designator = "C59" ("C59"); Footprint = "C0805"; UniqueID = "\YVMHTWDH" ("\YVMHTWDH")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Material"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "P/N"; Value = "GRM21BR71A105KA01K ????"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Ceramic Capacitor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C62" ("C62"); Footprint = "C0805"; UniqueID = "\RAALEWEW" ("\RAALEWEW")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Material"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "P/N"; Value = "GRM21BR71A105KA01K????"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Ceramic Capacitor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=DBoard_conn Member=Component C? CAP
+Added Room: Name=CPLD
+Added Room: Name=DBoard_conn

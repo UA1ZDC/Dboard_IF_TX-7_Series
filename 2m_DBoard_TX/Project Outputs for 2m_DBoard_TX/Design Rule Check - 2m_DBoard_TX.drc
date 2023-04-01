@@ -1,0 +1,639 @@
+Protel Design System Design Rule Check
+PCB File : D:\projekty\maxrez\Dboard_IF_RX-7_Series\2m_DBoard_TX\2m_DBoard_TX.PcbDoc
+Date     : 22. 3. 2023
+Time     : 16:28:28
+
+ERROR : More than 500 violations detected, DRC was stopped
+
+WARNING: Zero hole size multi-layer pad(s) detected
+   Pad D12-29(177.225mm,133.2mm) on Multi-Layer on Net GND
+   Pad D13-29(167.3mm,133.2mm) on Multi-Layer on Net GND
+   Pad D4-17(141.2mm,87.905mm) on Multi-Layer on Net GND
+   Pad D5-25(141.2mm,93.975mm) on Multi-Layer on Net GND
+   Pad D2-17(143.6mm,66.405mm) on Multi-Layer on Net GND
+   Pad D3-25(141.7mm,75.805mm) on Multi-Layer on Net GND
+   Pad D10-25(153.25mm,116.15mm) on Multi-Layer on Net GND
+   Pad D1-0(161.1mm,64.15mm) on Multi-Layer on Net GND
+   Pad D19-0(277mm,101.45mm) on Multi-Layer on Net GND
+   Pad D8-17(147.9mm,104.3mm) on Multi-Layer on Net GND
+   Pad D9-25(153.75mm,107.65mm) on Multi-Layer on Net GND
+   Pad D6-17(145.4mm,110.2mm) on Multi-Layer on Net GND
+   Pad D22-0(277.05mm,97.35mm) on Multi-Layer on Net GND
+   Pad D17-0(224.8mm,102.95mm) on Multi-Layer on Net GND
+   Pad D16-0(224.5mm,108.35mm) on Multi-Layer on Net GND
+   Pad D18-0(277.125mm,87.9mm) on Multi-Layer on Net GND
+   Pad D20-0(277.125mm,85mm) on Multi-Layer on Net GND
+   Pad D21-0(277.1mm,90.8mm) on Multi-Layer on Net GND
+
+WARNING: Unplated multi-layer pad(s) detected
+   Pad X1-0(154.902mm,132.884mm) on Multi-Layer on Net GND
+   Pad X1-0(154.902mm,167.284mm) on Multi-Layer on Net GND
+
+WARNING: Multilayer Pads with 0 size Hole found
+   Pad D12-29(177.225mm,133.2mm) on Multi-Layer
+   Pad D13-29(167.3mm,133.2mm) on Multi-Layer
+   Pad D4-17(141.2mm,87.905mm) on Multi-Layer
+   Pad D5-25(141.2mm,93.975mm) on Multi-Layer
+   Pad D2-17(143.6mm,66.405mm) on Multi-Layer
+   Pad D3-25(141.7mm,75.805mm) on Multi-Layer
+   Pad D10-25(153.25mm,116.15mm) on Multi-Layer
+   Pad D1-0(161.1mm,64.15mm) on Multi-Layer
+   Pad D19-0(277mm,101.45mm) on Multi-Layer
+   Pad D8-17(147.9mm,104.3mm) on Multi-Layer
+   Pad D9-25(153.75mm,107.65mm) on Multi-Layer
+   Pad D6-17(145.4mm,110.2mm) on Multi-Layer
+   Pad D22-0(277.05mm,97.35mm) on Multi-Layer
+   Pad D17-0(224.8mm,102.95mm) on Multi-Layer
+   Pad D16-0(224.5mm,108.35mm) on Multi-Layer
+   Pad D18-0(277.125mm,87.9mm) on Multi-Layer
+   Pad D20-0(277.125mm,85mm) on Multi-Layer
+   Pad D21-0(277.1mm,90.8mm) on Multi-Layer
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (InNetClass('POWER')),(InNet('GND'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.14mm) (OnLayer('Signal')),(InDifferentialPairClass('Diff_pair_100Ohm_inner'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (InNetClass('POWER')),(InNetClass('POWER'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.25mm) ((PadIsPlated = 'false') and OnMultiLayer),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (OnLayer('Top RF')),(InNetClass('RF_50Ohm'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (OnLayer('Signal')),(InNetClass('RF_50Ohm'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (OnLayer('Bottom Layer')),(InNetClass('RF_50Ohm'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (OnLayer('Inner RF')),(InNetClass('RF_50Ohm'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (OnLayer('Bottom Layer')),(InDifferentialPairClass('Diff_pair_100Ohm_outter'))
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint:  
+   Violation between Un-Routed Net Constraint:  
+   Violation between Un-Routed Net Constraint:  
+   Violation between Un-Routed Net Constraint:  
+   Violation between Un-Routed Net Constraint:  
+   Violation between Un-Routed Net Constraint:  
+   Violation between Un-Routed Net Constraint: Net GND Between Arc (170.609mm,86.573mm) on Top RF And Pad R47-1(170.673mm,89.031mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net DEMOD_TEMP Between Pad C?-2(130.82mm,143.09mm) on Top RF And Via (158.325mm,135.584mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net RF_Fwd_Vout Between Pad C?-2(135.9mm,143.09mm) on Top RF And Via (158.325mm,136.584mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C96-1(170.24mm,104mm) on Bottom Layer And Pad C100-1(170.24mm,105mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C101-1(173.24mm,108mm) on Bottom Layer And Pad C91-1(174.24mm,108mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (172.74mm,106.5mm) from Top RF to Bottom Layer And Pad C101-1(173.24mm,108mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C10-2(160.95mm,58.25mm) on Top RF And Pad C9-1(161.35mm,59.45mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C103-1(141.55mm,188.175mm) on Top RF And Pad C104-1(142.625mm,188.375mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C105-1(147.925mm,188.175mm) on Top RF And Pad C106-1(148.975mm,188.375mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C110-2(172.373mm,80.123mm) on Top RF And Pad C109-2(174.073mm,79.909mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C114-1(163.573mm,83.948mm) on Top RF And Pad C113-1(165.073mm,84.487mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net _12V_TPS Between Pad C113-2(165.073mm,82.709mm) on Top RF And Via (166.05mm,82.725mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C118-1(162.923mm,87.948mm) on Top RF And Pad C115-1(163.323mm,86.748mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D21-5(278.075mm,90.8mm) on Top RF And Pad C120-2(279.2mm,90.05mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C121-2(274.75mm,90.05mm) on Top RF And Pad D21-3(276.125mm,90.15mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetC12_2 Between Pad C12-2(151.125mm,68mm) on Top RF And Pad L4-2(153.475mm,68.135mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetC12_2 Between Pad R4-2(149.975mm,68mm) on Top RF And Pad C12-2(151.125mm,68mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D18-5(278.1mm,87.9mm) on Top RF And Pad C122-2(279.2mm,87.15mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net 5V_QMOD Between Pad C123-1(274.75mm,88.55mm) on Top RF And Pad D18-1(276.15mm,88.55mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net 5V_QMOD Between Via (154.95mm,111.225mm) from Top RF to Bottom Layer And Pad C123-1(274.75mm,88.55mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C123-2(274.75mm,87.15mm) on Top RF And Pad D18-3(276.15mm,87.25mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D20-5(278.1mm,85mm) on Top RF And Pad C124-2(279.2mm,84.25mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (277.125mm,84.5mm) from Top RF to Bottom Layer And Pad C124-2(279.2mm,84.25mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C125-2(274.75mm,84.25mm) on Top RF And Pad D20-3(276.15mm,84.35mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetC127_1 Between Pad D16-1(223.85mm,107.375mm) on Top RF And Pad C127-1(223.85mm,106.25mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetC127_1 Between Pad R48-2(223.842mm,105.1mm) on Top RF And Pad C127-1(223.85mm,106.25mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D16-3(225.15mm,107.375mm) on Top RF And Pad C127-2(225.25mm,106.25mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C127-2(225.25mm,106.25mm) on Top RF And Pad R49-1(226.658mm,105.1mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetC128_1 Between Pad D17-7(225.75mm,103.2mm) on Top RF And Pad C128-1(227.05mm,102.75mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetC128_2 Between Pad D17-8(225.75mm,103.7mm) on Top RF And Pad C128-2(227.05mm,104.15mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetC129_1 Between Pad C129-1(222.45mm,102.661mm) on Top RF And Pad D17-3(223.85mm,102.7mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C129-2(222.45mm,104.439mm) on Top RF And Pad D17-2(223.85mm,103.2mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C132-2(274.85mm,100.4mm) on Top RF And Pad D19-3(276.025mm,100.8mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Pad H1-2(256.96mm,63.89mm) on Top RF And Pad C134-1(274.9mm,97.7mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C134-2(274.9mm,96.3mm) on Top RF And Pad D22-3(276.075mm,96.7mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net PLL1_TX_STAT Between Pad T4-1(240.13mm,65.99mm) on Top RF And Pad C135-1(259mm,67.43mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net PLL2_TX_STAT Between Pad T5-1(199.56mm,54.278mm) on Top RF And Pad C136-1(204.985mm,54.378mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net LED_TX Between Via (174.39mm,75.45mm) from Top RF to Bottom Layer And Pad C137-1(193.834mm,54.378mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad D3-2(142.45mm,77.73mm) on Top RF And Pad C16-2(142.7mm,78.905mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C16-2(142.7mm,78.905mm) on Top RF And Pad R5-1(142.7mm,79.705mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetC17_2 Between Pad C17-2(145.1mm,81.155mm) on Top RF And Pad L6-2(145.235mm,78.805mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetC17_2 Between Pad C17-2(145.1mm,81.155mm) on Top RF And Pad R6-2(145.1mm,82.305mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R47-1(170.673mm,89.031mm) on Top RF And Pad C191-1(171.775mm,90.125mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Pad C20-1(138mm,94.675mm) on Top RF And Pad D5-8(139.275mm,94.725mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C20-2(138mm,93.675mm) on Top RF And Via (138.675mm,92.725mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C20-2(138mm,93.675mm) on Top RF And Via (138.675mm,94.225mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetC2_1 Between Pad C2-1(160.15mm,68.05mm) on Top RF And Pad D1-30(160.35mm,66.6mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Pad C21-1(144.45mm,112.8mm) on Top RF And Pad D6-16(144.65mm,111.625mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C21-2(143.45mm,112.8mm) on Top RF And Via (145.15mm,112.225mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C2-2(159.15mm,68.05mm) on Top RF And Via (159.35mm,67.2mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Pad C22-1(150.5mm,105.1mm) on Top RF And Pad C23-1(153mm,104.5mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Pad D8-16(149.325mm,105.05mm) on Top RF And Pad C22-1(150.5mm,105.1mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D8-1(148.65mm,105.725mm) on Top RF And Pad C22-2(150.5mm,106.1mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C22-2(150.5mm,106.1mm) on Top RF And Via (151.225mm,106.4mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Pad D9-8(153mm,105.725mm) on Top RF And Pad C23-1(153mm,104.5mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (153.5mm,105.125mm) from Top RF to Bottom Layer And Pad C23-2(154mm,104.5mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C23-2(154mm,104.5mm) on Top RF And Via (155mm,105.125mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C25-1(155.95mm,113mm) on Top RF And Via (156.45mm,113mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C26-1(155.95mm,112.1mm) on Top RF And Via (156.45mm,112.1mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (155.675mm,120.9mm) from Top RF to Bottom Layer And Pad C27-1(155.675mm,120.375mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (154.8mm,120.9mm) from Top RF to Bottom Layer And Pad C28-1(154.8mm,120.375mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C30-2(148.675mm,122.6mm) on Top RF And Via (149.175mm,122.6mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C4-1(166.5mm,72.4mm) on Top RF And Pad C3-1(166.5mm,73.4mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (149.175mm,122.6mm) from Top RF to Bottom Layer And Pad C31-1(149.675mm,122.6mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net 12V_AVDD Between Pad C4-2(167.5mm,72.4mm) on Top RF And Pad C3-2(167.5mm,73.4mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net 12V_AVDD Between Track (161.783mm,84.683mm)(162.023mm,84.923mm) on Top RF And Pad C3-2(167.5mm,73.4mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C32-2(148.675mm,126.1mm) on Top RF And Via (149.175mm,126.1mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (149.175mm,126.1mm) from Top RF to Bottom Layer And Pad C33-1(149.675mm,126.1mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (157.325mm,122.575mm) from Top RF to Bottom Layer And Pad C36-2(157.825mm,122.581mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C37-1(156.825mm,122.581mm) on Top RF And Via (157.325mm,122.575mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (157.325mm,126.1mm) from Top RF to Bottom Layer And Pad C38-2(157.825mm,126.1mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C39-1(156.825mm,126.1mm) on Top RF And Via (157.325mm,126.1mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 12V_AVDD Between Pad C4-2(167.5mm,72.4mm) on Top RF And Pad L2-1(167.515mm,70.1mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C46-1(135.331mm,109.354mm) on Top RF And Pad C47-1(136.431mm,108.954mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C47-1(136.431mm,108.954mm) on Top RF And Pad C48-2(138.031mm,108.565mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetC5_2 Between Pad L1-2(165.4mm,66.67mm) on Top RF And Pad C5-2(165.45mm,67.7mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetC5_2 Between Pad C5-2(165.45mm,67.7mm) on Top RF And Pad L2-2(165.485mm,70.1mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C53-1(178.225mm,125.975mm) on Bottom Layer And Pad C52-2(178.225mm,126.75mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C56-1(182.124mm,131.437mm) on Top RF And Pad C54-1(182.124mm,133.425mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C59-2(179.874mm,128.987mm) on Top RF And Pad C57-1(180.724mm,128.987mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetC57_2 Between Pad C57-2(182.124mm,128.987mm) on Top RF And Pad R25-2(182.186mm,130.212mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (177.775mm,132.1mm) from Top RF to Bottom Layer And Pad C58-2(178.975mm,130.8mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C60-1(175.325mm,132.45mm) on Bottom Layer And Pad C64-1(175.325mm,133.95mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetC6_1 Between Pad C7-2(161mm,68.05mm) on Top RF And Pad C6-1(161mm,69.25mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C61-1(177.962mm,137.762mm) on Top RF And Pad C62-1(179.362mm,138.212mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C61-1(177.962mm,137.762mm) on Top RF And Track (178.475mm,134.989mm)(178.475mm,136.2mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C7-1(162mm,68.05mm) on Top RF And Pad C6-2(162.4mm,69.25mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C64-1(175.325mm,133.95mm) on Bottom Layer And Pad C65-1(175.975mm,135.6mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C65-1(175.975mm,135.6mm) on Bottom Layer And Via (176.675mm,134.3mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C70-1(172.199mm,131.437mm) on Top RF And Pad C68-1(172.199mm,133.462mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C75-2(169.949mm,128.987mm) on Top RF And Pad C71-1(170.799mm,128.987mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetC6_1 Between Pad D1-29(160.85mm,66.6mm) on Top RF And Pad C7-2(161mm,68.05mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C73-1(170.149mm,125.662mm) on Top RF And Pad C72-1(170.149mm,126.512mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (167.85mm,132.1mm) from Top RF to Bottom Layer And Pad C74-2(169.05mm,130.8mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C76-1(165.399mm,132.462mm) on Bottom Layer And Pad C80-1(165.4mm,133.95mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C77-1(168.049mm,137.762mm) on Top RF And Pad C78-1(169.449mm,138.212mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C77-1(168.049mm,137.762mm) on Top RF And Track (168.55mm,135.6mm)(168.55mm,136.2mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (167.85mm,134.3mm) from Top RF to Bottom Layer And Pad C79-1(169.2mm,133.95mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C80-1(165.4mm,133.95mm) on Bottom Layer And Pad C81-1(166.05mm,135.6mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C9-1(161.35mm,59.45mm) on Top RF And Pad C8-1(161.35mm,60.45mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (160.85mm,61.1mm) from Top RF to Bottom Layer And Pad C8-1(161.35mm,60.45mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C8-1(161.35mm,60.45mm) on Top RF And Via (161.85mm,61.1mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C81-1(166.05mm,135.6mm) on Bottom Layer And Via (166.75mm,134.3mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Track (170.24mm,101mm)(172.24mm,101mm) on Bottom Layer And Pad C82-2(172.24mm,100mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C91-1(174.24mm,108mm) on Bottom Layer And Pad C84-2(174.24mm,109mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C90-1(177.24mm,104mm) on Bottom Layer And Pad C94-1(177.24mm,105mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Track (172.74mm,107.5mm)(173.24mm,107mm) on Bottom Layer And Pad C91-2(174.24mm,107mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D1-10(159.85mm,61.7mm) on Top RF And Via (160.05mm,63.1mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D1-16(162.85mm,61.7mm) on Top RF And Pad D1-17(163.55mm,62.4mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D1-19(163.55mm,63.4mm) on Top RF And Pad D1-20(163.55mm,63.9mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net 3V3_CVDD Between Pad D12-1(175.325mm,134.95mm) on Top RF And Track (176.975mm,135.6mm)(176.975mm,136.2mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D1-22(163.55mm,64.9mm) on Top RF And Pad D1-23(163.55mm,65.4mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Pad D12-8(175.325mm,131.45mm) on Top RF And Pad X3-2(187.24mm,130mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D1-4(158.65mm,64.4mm) on Top RF And Pad D1-3(158.65mm,64.9mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetC70_2 Between Pad D13-25(167.55mm,135.6mm) on Top RF And Track (169.199mm,132.051mm)(169.199mm,134.912mm) on Inner RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D1-6(158.65mm,63.4mm) on Top RF And Pad D1-4(158.65mm,64.4mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D1-4(158.65mm,64.4mm) on Top RF And Via (160.05mm,64.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetD14_A11 Between Pad D14-A11(166.24mm,107mm) on Top RF And Pad R36-1(199.85mm,112.35mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_A12 Between Pad D14-A12(166.24mm,108mm) on Top RF And Pad R36-3(200.85mm,112.35mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_A15 Between Pad D14-A15(166.24mm,111mm) on Top RF And Pad R39-6(201.5mm,105.5mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_A16 Between Pad D14-A16(166.24mm,112mm) on Top RF And Pad R39-8(201.5mm,106.5mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_A8 Between Pad D14-A8(166.24mm,104mm) on Top RF And Pad R38-3(204.6mm,109.35mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_B1 Between Pad D14-B1(167.24mm,97mm) on Top RF And Pad R37-4(202.8mm,102.15mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_B11 Between Pad D14-B11(167.24mm,107mm) on Top RF And Pad R36-2(200.35mm,112.35mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_B12 Between Pad D14-B12(167.24mm,108mm) on Top RF And Pad R36-4(201.35mm,112.35mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_B14 Between Pad D14-B14(167.24mm,110mm) on Top RF And Pad R39-5(201.5mm,105mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_B15 Between Pad D14-B15(167.24mm,111mm) on Top RF And Pad R39-7(201.5mm,106mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_B2 Between Pad D14-B2(167.24mm,98mm) on Top RF And Pad R37-3(202.8mm,101.65mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_B7 Between Pad D14-B7(167.24mm,103mm) on Top RF And Pad R38-2(204.6mm,108.85mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_B8 Between Pad D14-B8(167.24mm,104mm) on Top RF And Pad R38-4(204.6mm,109.85mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_C1 Between Pad D14-C1(168.24mm,97mm) on Top RF And Pad R37-2(202.8mm,101.15mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_D2 Between Pad R35-2(166.44mm,114.8mm) on Top RF And Pad D14-D2(169.24mm,98mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_E2 Between Pad R35-3(166.94mm,114.8mm) on Top RF And Pad D14-E2(170.24mm,98mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_F2 Between Pad R34-1(168.29mm,114.8mm) on Top RF And Pad D14-F2(171.24mm,98mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_F3 Between Pad R35-4(167.44mm,114.8mm) on Top RF And Pad D14-F3(171.24mm,99mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D14-G10(172.24mm,106mm) on Top RF And Via (172.74mm,105.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetD14_G3 Between Pad R34-2(168.79mm,114.8mm) on Top RF And Pad D14-G3(172.24mm,99mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_H1 Between Pad R34-3(169.29mm,114.8mm) on Top RF And Pad D14-H1(173.24mm,97mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_H2 Between Pad R34-4(169.79mm,114.8mm) on Top RF And Pad D14-H2(173.24mm,98mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net EXT_CTRL_TX Between Pad D14-J14(174.24mm,110mm) on Top RF And Pad R55-2(277.858mm,61.2mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (174.74mm,103.5mm) from Top RF to Bottom Layer And Pad D14-K7(175.24mm,103mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net LED_TX Between Pad T6-1(174.39mm,76.4mm) on Top RF And Pad D14-L16(176.24mm,112mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_L3 Between Pad R33-3(171.64mm,114.8mm) on Top RF And Pad D14-L3(176.24mm,99mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_L4 Between Pad R33-2(171.14mm,114.8mm) on Top RF And Pad D14-L4(176.24mm,100mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_L5 Between Pad R33-1(170.64mm,114.8mm) on Top RF And Pad D14-L5(176.24mm,101mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_M1 Between Pad R33-4(172.14mm,114.8mm) on Top RF And Pad D14-M1(177.24mm,97mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_M2 Between Pad R31-4(176.84mm,114.8mm) on Top RF And Pad D14-M2(177.24mm,98mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_M3 Between Pad R40-1(165.05mm,114.742mm) on Top RF And Pad D14-M3(177.24mm,99mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_N1 Between Pad R32-2(173.49mm,114.8mm) on Top RF And Pad D14-N1(178.24mm,97mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_N2 Between Pad R32-1(172.99mm,114.8mm) on Top RF And Pad D14-N2(178.24mm,98mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_N3 Between Pad R32-3(173.99mm,114.8mm) on Top RF And Pad D14-N3(178.24mm,99mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_P1 Between Pad R32-4(174.49mm,114.8mm) on Top RF And Pad D14-P1(179.24mm,97mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_P2 Between Pad R31-1(175.34mm,114.8mm) on Top RF And Pad D14-P2(179.24mm,98mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_R1 Between Pad R31-2(175.84mm,114.8mm) on Top RF And Pad D14-R1(180.24mm,97mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_R2 Between Pad R31-3(176.34mm,114.8mm) on Top RF And Pad D14-R2(180.24mm,98mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_R4 Between Pad D14-R4(180.24mm,100mm) on Top RF And Pad R30-2(203.05mm,96.95mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_T1 Between Pad D14-T1(181.24mm,97mm) on Top RF And Pad R30-4(203.05mm,95.95mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_T3 Between Pad D14-T3(181.24mm,99mm) on Top RF And Pad R30-3(203.05mm,96.45mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD14_T4 Between Pad D14-T4(181.24mm,100mm) on Top RF And Pad R30-1(203.05mm,97.45mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D15-2(174.098mm,87.273mm) on Top RF And Track (174.1mm,89.583mm)(175.574mm,89.583mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D1-7(158.65mm,62.9mm) on Top RF And Pad D1-6(158.65mm,63.4mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D16-2(224.5mm,107.375mm) on Top RF And Pad D16-0(224.5mm,108.35mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D16-2(224.5mm,107.375mm) on Top RF And Pad D16-3(225.15mm,107.375mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (224mm,108.35mm) from Top RF to Bottom Layer And Pad D16-5(224.5mm,109.325mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetC127_1 Between Pad R48-2(223.842mm,105.1mm) on Top RF And Pad D17-1(223.85mm,103.7mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D17-2(223.85mm,103.2mm) on Top RF And Via (224.8mm,103.45mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetD17_5 Between Pad D17-5(225.75mm,102.2mm) on Top RF And Pad R51-1(226.042mm,101.05mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD17_6 Between Pad R49-2(225.642mm,105.1mm) on Top RF And Pad D17-6(225.75mm,102.7mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D18-2(276.15mm,87.9mm) on Top RF And Pad D18-0(277.125mm,87.9mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D18-3(276.15mm,87.25mm) on Top RF And Pad D18-2(276.15mm,87.9mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D20-2(276.15mm,85mm) on Top RF And Pad D20-0(277.125mm,85mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D20-3(276.15mm,84.35mm) on Top RF And Pad D20-2(276.15mm,85mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D2-2(142.716mm,67.643mm) on Top RF And Pad D2-1(143.07mm,67.996mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D21-2(276.125mm,90.8mm) on Top RF And Pad D21-0(277.1mm,90.8mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D2-11(144.837mm,65.521mm) on Top RF And Pad D2-12(145.191mm,65.875mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D21-3(276.125mm,90.15mm) on Top RF And Pad D21-2(276.125mm,90.8mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D2-2(142.716mm,67.643mm) on Top RF And Via (143.6mm,66.971mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D2-5(142.009mm,65.875mm) on Top RF And Pad D2-4(142.009mm,66.936mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D2-4(142.009mm,66.936mm) on Top RF And Via (143.034mm,66.405mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net I2C_A0_TX Between Pad D24-1(152.995mm,154.279mm) on Top RF And Via (158.362mm,155.575mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net I2C_A1_TX Between Pad D24-2(154.265mm,154.279mm) on Top RF And Via (158.362mm,156.575mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net SDA_TX Between Pad D24-5(156.805mm,160.121mm) on Top RF And Track (156.9mm,157.575mm)(158.362mm,157.575mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net SCL_TX Between Pad D24-6(155.535mm,160.121mm) on Top RF And Track (156.9mm,158.575mm)(158.362mm,158.575mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D2-8(143.07mm,64.814mm) on Top RF And Pad D2-9(144.13mm,64.814mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D3-4(141.45mm,77.73mm) on Top RF And Pad D3-1(142.95mm,77.73mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D3-12(139.775mm,74.555mm) on Top RF And Pad D3-13(140.45mm,73.88mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D3-13(140.45mm,73.88mm) on Top RF And Pad D3-15(141.45mm,73.88mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD3_3 Between Pad D3-3(141.95mm,77.73mm) on Top RF And Pad R5-2(142.7mm,80.721mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D3-6(140.45mm,77.73mm) on Top RF And Pad D3-4(141.45mm,77.73mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D3-7(139.775mm,77.055mm) on Top RF And Pad D3-6(140.45mm,77.73mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D3-8(139.775mm,76.555mm) on Top RF And Via (141.15mm,76.355mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D4-2(141.45mm,89.405mm) on Top RF And Pad D4-1(141.95mm,89.405mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D4-11(141.45mm,86.405mm) on Top RF And Pad D4-12(141.95mm,86.405mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D4-9(140.45mm,86.405mm) on Top RF And Pad D4-11(141.45mm,86.405mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D4-11(141.45mm,86.405mm) on Top RF And Via (141.6mm,87.505mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D4-4(140.45mm,89.405mm) on Top RF And Pad D4-2(141.45mm,89.405mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D4-4(140.45mm,89.405mm) on Top RF And Via (140.8mm,88.305mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D4-7(139.7mm,87.655mm) on Top RF And Via (140.8mm,87.505mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D5-3(141.45mm,95.9mm) on Top RF And Pad D5-1(142.45mm,95.9mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D5-12(139.275mm,92.725mm) on Top RF And Pad D5-13(139.95mm,92.05mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (141.75mm,93.425mm) from Top RF to Bottom Layer And Pad D5-17(141.95mm,92.05mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (141.75mm,93.425mm) from Top RF to Bottom Layer And Pad D5-19(143.125mm,92.725mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D5-21(143.125mm,93.725mm) on Top RF And Pad D5-23(143.125mm,94.725mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D5-21(143.125mm,93.725mm) on Top RF And Via (143.7mm,93.6mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D5-5(140.45mm,95.9mm) on Top RF And Pad D5-3(141.45mm,95.9mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D5-6(139.95mm,95.9mm) on Top RF And Pad D5-5(140.45mm,95.9mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D5-5(140.45mm,95.9mm) on Top RF And Via (140.65mm,94.525mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetD5_7 Between Pad R8-2(137.912mm,95.675mm) on Top RF And Pad D5-7(139.275mm,95.225mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Pad D5-8(139.275mm,94.725mm) on Top RF And Via (153mm,103.825mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D6-3(143.975mm,109.95mm) on Top RF And Pad D6-1(143.975mm,110.95mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D6-10(146.825mm,109.95mm) on Top RF And Pad D6-12(146.825mm,110.95mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D6-9(146.825mm,109.45mm) on Top RF And Pad D6-10(146.825mm,109.95mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD6_13 Between Pad R10-2(146.138mm,112.95mm) on Top RF And Pad D6-13(146.15mm,111.625mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Pad D6-16(144.65mm,111.625mm) on Top RF And Pad D8-16(149.325mm,105.05mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D6-4(143.975mm,109.45mm) on Top RF And Pad D6-3(143.975mm,109.95mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D6-3(143.975mm,109.95mm) on Top RF And Via (145mm,109.8mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D6-5(144.65mm,108.775mm) on Top RF And Pad D6-6(145.15mm,108.775mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D6-6(145.15mm,108.775mm) on Top RF And Pad D6-8(146.15mm,108.775mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (145mm,109.8mm) from Top RF to Bottom Layer And Pad D6-6(145.15mm,108.775mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (145.8mm,109.8mm) from Top RF to Bottom Layer And Pad D6-9(146.825mm,109.45mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R23-2(134.208mm,105mm) on Top RF And Pad D7-1(135.644mm,104.985mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D7-1(140.156mm,102.445mm) on Top RF And Pad Z4-3(141.625mm,103.04mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D8-1(148.65mm,105.725mm) on Top RF And Pad D8-15(149.325mm,104.55mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D8-3(147.65mm,105.725mm) on Top RF And Pad D8-1(148.65mm,105.725mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D8-10(147.65mm,102.875mm) on Top RF And Pad D8-12(148.65mm,102.875mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D8-9(147.15mm,102.875mm) on Top RF And Pad D8-10(147.65mm,102.875mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (147.5mm,103.9mm) from Top RF to Bottom Layer And Pad D8-10(147.65mm,102.875mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD8_13 Between Pad D8-13(149.325mm,103.55mm) on Top RF And Pad R12-2(150.438mm,103.5mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D8-4(147.15mm,105.725mm) on Top RF And Pad D8-3(147.65mm,105.725mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D8-4(147.15mm,105.725mm) on Top RF And Via (147.5mm,104.7mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D8-6(146.475mm,104.55mm) on Top RF And Pad D8-5(146.475mm,105.05mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D8-8(146.475mm,103.55mm) on Top RF And Pad D8-6(146.475mm,104.55mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R14-1(145.308mm,104.75mm) on Top RF And Pad D8-6(146.475mm,104.55mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D8-6(146.475mm,104.55mm) on Top RF And Via (147.5mm,104.7mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D9-3(151.825mm,107.9mm) on Top RF And Pad D9-1(151.825mm,108.9mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D9-12(155mm,105.725mm) on Top RF And Pad D9-13(155.675mm,106.4mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D9-23(153mm,109.575mm) on Top RF And Pad D9-21(154mm,109.575mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D9-21(154mm,109.575mm) on Top RF And Track (155mm,109.575mm)(155mm,110.175mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D9-5(151.825mm,106.9mm) on Top RF And Pad D9-3(151.825mm,107.9mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D9-6(151.825mm,106.4mm) on Top RF And Pad D9-5(151.825mm,106.9mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D9-5(151.825mm,106.9mm) on Top RF And Via (153.2mm,107.1mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D9-6(151.825mm,106.4mm) on Top RF And Pad D9-7(152.5mm,105.725mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetH1_1 Between Pad R52-2(249.848mm,67.43mm) on Top RF And Pad H1-1(256.96mm,65.89mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Pad H2-2(223.94mm,63.89mm) on Top RF And Pad H1-2(256.96mm,63.89mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetH2_1 Between Pad R53-2(203.093mm,54.378mm) on Top RF And Pad H2-1(223.94mm,65.89mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Track (173.54mm,59.7mm)(174.33mm,59.7mm) on Top RF And Pad H2-2(223.94mm,63.89mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetK1_1 Between Pad K1-1(275.25mm,61.18mm) on Top RF And Pad R55-1(276.842mm,61.2mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetK1_3 Between Pad XC1-1(213.55mm,66.7mm) on Multi-Layer And Pad K1-3(269.25mm,63.72mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetK1_4 Between Pad XC1-2(213.55mm,61.2mm) on Multi-Layer And Pad K1-4(269.25mm,61.18mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetL3_2 Between Pad L3-2(147.675mm,66.14mm) on Top RF And Pad R4-1(147.675mm,68mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetL5_2 Between Pad L5-2(143.22mm,84.6mm) on Top RF And Pad R6-1(145.1mm,84.605mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net _12V_TPS Between Track (166.05mm,82.725mm)(166.063mm,82.712mm) on Top RF And Pad Q1-2(166.8mm,82.725mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD6_13 Between Pad R10-2(146.138mm,112.95mm) on Top RF And Pad R9-1(146.138mm,114.25mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD8_13 Between Pad R11-1(150.438mm,102.3mm) on Top RF And Pad R12-2(150.438mm,103.5mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R1-2(157.225mm,62.884mm) on Top RF And Via (158.05mm,62.9mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R13-1(145.3mm,105.75mm) on Top RF And Pad R14-1(145.308mm,104.75mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetR13_2 Between Pad Z3-4(142.935mm,105.74mm) on Top RF And Pad R13-2(144.284mm,105.75mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetR14_2 Between Pad Z4-6(143.275mm,104.36mm) on Top RF And Pad R14-2(144.292mm,104.75mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R16-2(148.683mm,129.65mm) on Top RF And Via (149.175mm,129.65mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (149.175mm,129.65mm) from Top RF to Bottom Layer And Pad R17-1(149.667mm,129.65mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (157.325mm,129.65mm) from Top RF to Bottom Layer And Pad R19-2(157.817mm,129.65mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R20-1(156.833mm,129.65mm) on Top RF And Via (157.325mm,129.65mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R23-2(134.208mm,105mm) on Top RF And Pad R21-2(134.208mm,107.5mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD17_6 Between Pad R48-1(224.858mm,105.1mm) on Top RF And Pad R49-2(225.642mm,105.1mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD17_5 Between Pad R50-1(225.308mm,101.05mm) on Top RF And Pad R51-1(226.042mm,101.05mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetR52_1 Between Pad T4-3(239.18mm,63.79mm) on Top RF And Pad R52-1(248.832mm,67.43mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetR53_1 Between Pad T5-3(198.61mm,52.078mm) on Top RF And Pad R53-1(202.077mm,54.378mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net NetD5_7 Between Pad R8-2(137.912mm,95.675mm) on Top RF And Pad R7-1(137.912mm,96.875mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (162.125mm,142.175mm) from Top RF to Bottom Layer And Pad T2-2(162.125mm,143.31mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (160.85mm,147.625mm) from Top RF to Bottom Layer And Pad T2-4(160.855mm,146.49mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad T3-2(162.125mm,155.365mm) on Top RF And Via (162.125mm,156.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net PLL1_TX_STAT Between Via (174.675mm,133.95mm) from Top RF to Bottom Layer And Pad T4-1(240.13mm,65.99mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net PLL2_TX_STAT Between Via (164.75mm,133.95mm) from Top RF to Bottom Layer And Pad T5-1(199.56mm,54.278mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad X1-3(152.902mm,164.584mm) on Bottom Layer And Pad X1-1(152.902mm,165.584mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (151.364mm,165.584mm) from Top RF to Bottom Layer And Pad X1-1(152.902mm,165.584mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad X1-2(156.902mm,165.584mm) on Bottom Layer And Via (158.464mm,165.584mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (151.364mm,147.6mm) from Top RF to Bottom Layer And Pad X1-37(152.902mm,147.584mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad X1-42(156.902mm,145.584mm) on Bottom Layer And Pad X1-38(156.902mm,147.584mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad X1-38(156.902mm,147.584mm) on Bottom Layer And Via (158.464mm,147.6mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (151.364mm,145.6mm) from Top RF to Bottom Layer And Pad X1-41(152.902mm,145.584mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad X1-42(156.902mm,145.584mm) on Bottom Layer And Via (158.464mm,145.6mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (151.364mm,142.6mm) from Top RF to Bottom Layer And Pad X1-47(152.902mm,142.584mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad X1-48(156.902mm,142.584mm) on Bottom Layer And Via (158.464mm,142.6mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (151.34mm,139.568mm) from Top RF to Bottom Layer And Pad X1-53(152.902mm,139.584mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (151.34mm,137.568mm) from Top RF to Bottom Layer And Pad X1-57(152.902mm,137.584mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (151.364mm,134.6mm) from Top RF to Bottom Layer And Pad X1-63(152.902mm,134.584mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad X1-64(156.902mm,134.584mm) on Bottom Layer And Via (158.464mm,134.6mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad X3-1(189.24mm,130mm) on Multi-Layer And Pad X3-3(189.24mm,132mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad X3-11(189.24mm,140mm) on Multi-Layer And Pad X3-13(189.24mm,142mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad X3-9(189.24mm,138mm) on Multi-Layer And Pad X3-11(189.24mm,140mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad X3-3(189.24mm,132mm) on Multi-Layer And Pad X3-5(189.24mm,134mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad X3-5(189.24mm,134mm) on Multi-Layer And Pad X3-7(189.24mm,136mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad X3-7(189.24mm,136mm) on Multi-Layer And Pad X3-9(189.24mm,138mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad Z1-GND(140.125mm,98.19mm) on Top RF And Pad Z1-GND(140.125mm,99.51mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (139.95mm,96.5mm) from Top RF to Bottom Layer And Pad Z1-GND(140.125mm,98.19mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad Z1-GND(140.125mm,99.51mm) on Top RF And Pad Z1-GND(141.775mm,99.51mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad Z1-GND(141.775mm,98.19mm) on Top RF And Pad Z1-GND(141.775mm,99.51mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad Z3-3(141.965mm,105.74mm) on Top RF And Pad Z3-1(141.965mm,106.76mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad Z3-3(141.965mm,105.74mm) on Top RF And Pad Z3-5(142.935mm,106.25mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad Z4-1(141.625mm,104.36mm) on Top RF And Pad Z3-3(141.965mm,105.74mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad Z4-3(141.625mm,103.04mm) on Top RF And Pad Z4-1(141.625mm,104.36mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad Z4-1(141.625mm,104.36mm) on Top RF And Pad Z4-5(143.275mm,103.7mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad Z5-GND(162.575mm,148.665mm) on Top RF And Pad Z5-GND(162.575mm,149.985mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad Z5-GND(162.575mm,149.985mm) on Top RF And Pad Z5-GND(164.225mm,149.985mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad Z5-GND(164.225mm,148.665mm) on Top RF And Pad Z5-GND(164.225mm,149.985mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Track (143.125mm,94.725mm)(143.339mm,94.725mm) on Top RF And Track (144.384mm,94.825mm)(144.425mm,94.825mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net 5V_QMOD Between Track (154.5mm,113.85mm)(154.5mm,114.2mm) on Top RF And Track (155.2mm,117.4mm)(155.425mm,117.4mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net 3V3_CVDD Between Track (164.8mm,134.95mm)(165.4mm,134.95mm) on Top RF And Track (167.05mm,135.6mm)(167.05mm,136.2mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Track (170.74mm,101.5mm)(171.24mm,102mm) on Top RF And Via (171.74mm,102.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Track (172.74mm,102.5mm)(173.24mm,103mm) on Top RF And Track (174.24mm,103mm)(174.74mm,102.5mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (172.79mm,103.5mm) from Top RF to Bottom Layer And Track (172.74mm,102.5mm)(173.24mm,103mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Track (172.74mm,105.5mm)(173.24mm,105mm) on Top RF And Track (174.24mm,105mm)(174.74mm,105.5mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Track (174.24mm,104mm)(174.74mm,103.5mm) on Top RF And Track (174.24mm,105mm)(174.74mm,105.5mm) on Top RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Track (174.24mm,106mm)(174.74mm,106.5mm) on Top RF And Via (174.74mm,105.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (176.74mm,107.5mm) from Top RF to Bottom Layer And Track (176.745mm,108mm)(177.24mm,107.505mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetC56_2 Between Track (177.475mm,135.6mm)(177.475mm,136.2mm) on Top RF And Track (179.124mm,132.051mm)(179.124mm,134.551mm) on Inner RF 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (134.888mm,113.55mm) from Top RF to Bottom Layer And Via (135.65mm,113.55mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (136.337mm,112.407mm) from Top RF to Bottom Layer And Via (136.338mm,113.169mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (136.337mm,112.407mm) from Top RF to Bottom Layer And Via (137.099mm,112.407mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (136.337mm,114.693mm) from Top RF to Bottom Layer And Via (137.099mm,114.693mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (137.099mm,112.407mm) from Top RF to Bottom Layer And Via (137.861mm,112.407mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (137.099mm,114.693mm) from Top RF to Bottom Layer And Via (137.861mm,114.693mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (137.861mm,114.693mm) from Top RF to Bottom Layer And Via (137.862mm,113.931mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (139.175mm,74.555mm) from Top RF to Bottom Layer And Via (139.175mm,75.055mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (139.175mm,75.055mm) from Top RF to Bottom Layer And Via (139.175mm,75.555mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (139.175mm,75.555mm) from Top RF to Bottom Layer And Via (139.175mm,76.055mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (139.175mm,76.055mm) from Top RF to Bottom Layer And Via (139.175mm,76.555mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (139.175mm,76.555mm) from Top RF to Bottom Layer And Via (139.175mm,77.055mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (139.1mm,87.155mm) from Top RF to Bottom Layer And Via (139.1mm,87.655mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (139.1mm,87.655mm) from Top RF to Bottom Layer And Via (139.1mm,88.155mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (139.1mm,88.155mm) from Top RF to Bottom Layer And Via (139.1mm,88.655mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (139.95mm,91.45mm) from Top RF to Bottom Layer And Via (140.45mm,91.45mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (140.45mm,91.45mm) from Top RF to Bottom Layer And Via (140.95mm,91.45mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (140.95mm,91.45mm) from Top RF to Bottom Layer And Via (141.45mm,91.45mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (141.45mm,91.45mm) from Top RF to Bottom Layer And Via (141.95mm,90.005mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (141.45mm,91.45mm) from Top RF to Bottom Layer And Via (141.95mm,91.45mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (141.585mm,65.451mm) from Top RF to Bottom Layer And Via (141.938mm,65.097mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (141.938mm,65.097mm) from Top RF to Bottom Layer And Via (142.292mm,64.744mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (141.95mm,90.005mm) from Top RF to Bottom Layer And Via (143.3mm,88.655mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (141.95mm,91.45mm) from Top RF to Bottom Layer And Via (142.45mm,91.45mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (142.292mm,64.744mm) from Top RF to Bottom Layer And Via (142.645mm,64.39mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (142.645mm,68.421mm) from Top RF to Bottom Layer And Via (144.555mm,68.421mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (142.95mm,78.33mm) from Top RF to Bottom Layer And Via (144.225mm,77.055mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (143.3mm,87.155mm) from Top RF to Bottom Layer And Via (143.3mm,87.655mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (143.3mm,87.655mm) from Top RF to Bottom Layer And Via (143.3mm,88.155mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (143.3mm,88.155mm) from Top RF to Bottom Layer And Via (143.3mm,88.655mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (143.7mm,93.6mm) from Top RF to Bottom Layer And Via (143.725mm,92.725mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (144.225mm,74.555mm) from Top RF to Bottom Layer And Via (144.225mm,75.055mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (144.225mm,75.055mm) from Top RF to Bottom Layer And Via (144.225mm,75.555mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (144.225mm,75.555mm) from Top RF to Bottom Layer And Via (144.225mm,76.055mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (144.225mm,76.055mm) from Top RF to Bottom Layer And Via (144.225mm,76.555mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (144.225mm,76.555mm) from Top RF to Bottom Layer And Via (144.225mm,77.055mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (144.555mm,68.421mm) from Top RF to Bottom Layer And Via (144.908mm,68.067mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (144.908mm,68.067mm) from Top RF to Bottom Layer And Via (145.262mm,67.713mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (145.15mm,112.225mm) from Top RF to Bottom Layer And Via (145.8mm,110.6mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (145.262mm,67.713mm) from Top RF to Bottom Layer And Via (145.615mm,67.36mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (145.615mm,65.451mm) from Top RF to Bottom Layer And Via (145.615mm,67.36mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (146.45mm,98.6mm) from Top RF to Bottom Layer And Via (149.85mm,98.6mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (149.175mm,122.6mm) from Top RF to Bottom Layer And Via (149.175mm,126.1mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (150.69mm,137.568mm) from Top RF to Bottom Layer And Via (150.69mm,139.568mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (150.69mm,137.568mm) from Top RF to Bottom Layer And Via (150.714mm,134.6mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (150.69mm,137.568mm) from Top RF to Bottom Layer And Via (151.34mm,137.568mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (150.69mm,139.568mm) from Top RF to Bottom Layer And Via (150.714mm,142.6mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (150.69mm,139.568mm) from Top RF to Bottom Layer And Via (151.34mm,139.568mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (150.714mm,134.6mm) from Top RF to Bottom Layer And Via (151.364mm,134.6mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (150.714mm,142.6mm) from Top RF to Bottom Layer And Via (150.714mm,145.6mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (150.714mm,142.6mm) from Top RF to Bottom Layer And Via (151.364mm,142.6mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (150.714mm,145.6mm) from Top RF to Bottom Layer And Via (150.714mm,147.6mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (150.714mm,145.6mm) from Top RF to Bottom Layer And Via (151.364mm,145.6mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (150.714mm,147.6mm) from Top RF to Bottom Layer And Via (151.364mm,147.6mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (150.714mm,164.584mm) from Top RF to Bottom Layer And Via (151.364mm,164.584mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (150.714mm,165.584mm) from Top RF to Bottom Layer And Via (151.364mm,165.584mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (150.7mm,114.9mm) from Top RF to Bottom Layer And Via (150.7mm,115.4mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (151.364mm,164.584mm) from Top RF to Bottom Layer And Via (151.364mm,165.584mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (152.5mm,105.125mm) from Top RF to Bottom Layer And Via (153.5mm,105.125mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (152.5mm,118.7mm) from Top RF to Bottom Layer And Via (154mm,118.7mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net _6V_flt Between Via (153.125mm,185.175mm) from Top RF to Bottom Layer And Via (179.825mm,88.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Via (153mm,103.825mm) from Top RF to Bottom Layer And Via (168.74mm,100.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (154.8mm,120.9mm) from Top RF to Bottom Layer And Via (155.675mm,120.9mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (155.675mm,120.9mm) from Top RF to Bottom Layer And Via (157.325mm,122.575mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (155.8mm,114.9mm) from Top RF to Bottom Layer And Via (155.8mm,115.4mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (155.8mm,114.9mm) from Top RF to Bottom Layer And Via (156.45mm,113mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (155mm,110.175mm) from Top RF to Bottom Layer And Via (156.275mm,108.9mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (156.275mm,106.4mm) from Top RF to Bottom Layer And Via (156.275mm,106.9mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (156.275mm,106.9mm) from Top RF to Bottom Layer And Via (156.275mm,107.4mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (156.275mm,107.4mm) from Top RF to Bottom Layer And Via (156.275mm,107.9mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (156.275mm,107.9mm) from Top RF to Bottom Layer And Via (156.275mm,108.4mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (156.275mm,108.4mm) from Top RF to Bottom Layer And Via (156.275mm,108.9mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (156.275mm,108.9mm) from Top RF to Bottom Layer And Via (156.45mm,112.1mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (156.45mm,112.1mm) from Top RF to Bottom Layer And Via (156.45mm,113mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (157.325mm,122.575mm) from Top RF to Bottom Layer And Via (157.325mm,126.1mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (158.05mm,62.4mm) from Top RF to Bottom Layer And Via (158.05mm,62.9mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (158.05mm,64.9mm) from Top RF to Bottom Layer And Via (158.05mm,65.9mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (158.464mm,134.6mm) from Top RF to Bottom Layer And Via (159.114mm,134.6mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (158.464mm,142.6mm) from Top RF to Bottom Layer And Via (159.114mm,142.6mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (158.464mm,145.6mm) from Top RF to Bottom Layer And Via (159.114mm,145.6mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (158.464mm,147.6mm) from Top RF to Bottom Layer And Via (159.114mm,147.6mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (158.464mm,165.584mm) from Top RF to Bottom Layer And Via (159.114mm,165.584mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (159.114mm,142.6mm) from Top RF to Bottom Layer And Via (159.114mm,145.6mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (159.114mm,142.6mm) from Top RF to Bottom Layer And Via (162.125mm,142.175mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (159.114mm,147.6mm) from Top RF to Bottom Layer And Via (160.85mm,147.625mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (159.35mm,61.1mm) from Top RF to Bottom Layer And Via (159.85mm,61.1mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (159.35mm,67.2mm) from Top RF to Bottom Layer And Via (159.85mm,67.2mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (159.85mm,61.1mm) from Top RF to Bottom Layer And Via (160.35mm,61.1mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (159.85mm,67.2mm) from Top RF to Bottom Layer And Via (161.35mm,67.2mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (160.35mm,61.1mm) from Top RF to Bottom Layer And Via (160.85mm,61.1mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (161.35mm,67.2mm) from Top RF to Bottom Layer And Via (161.85mm,67.2mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (161.85mm,61.1mm) from Top RF to Bottom Layer And Via (162.85mm,61.1mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (161.85mm,67.2mm) from Top RF to Bottom Layer And Via (162.35mm,67.2mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (162.35mm,67.2mm) from Top RF to Bottom Layer And Via (162.85mm,67.2mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (162.85mm,67.2mm) from Top RF to Bottom Layer And Via (164.15mm,65.9mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (164.15mm,62.4mm) from Top RF to Bottom Layer And Via (164.15mm,62.9mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (164.15mm,62.9mm) from Top RF to Bottom Layer And Via (164.15mm,63.4mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (164.15mm,63.4mm) from Top RF to Bottom Layer And Via (164.15mm,65.4mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (164.15mm,65.4mm) from Top RF to Bottom Layer And Via (164.15mm,65.9mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_CVDD Between Via (164.4mm,134.95mm) from Top RF to Bottom Layer And Via (164.899mm,127.562mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net MISO_RX Between Via (164.75mm,131.95mm) from Top RF to Bottom Layer And Via (174.675mm,131.95mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net MOSI_RX Between Via (164.75mm,132.45mm) from Top RF to Bottom Layer And Via (174.675mm,132.45mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net SCLK_RX Between Via (164.75mm,132.95mm) from Top RF to Bottom Layer And Via (174.675mm,132.95mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_CVDD Between Via (164.899mm,127.562mm) from Top RF to Bottom Layer And Via (169.15mm,124.8mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Via (164.8mm,131.45mm) from Top RF to Bottom Layer And Via (174.325mm,131.45mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net _12V_TPS Between Via (166.05mm,82.725mm) from Top RF to Bottom Layer And Via (168.3mm,88.05mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetD14_A10 Between Via (166.74mm,106.5mm) from Top RF to Bottom Layer And Via (183.14mm,107mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_CVDD Between Via (167.05mm,136.6mm) from Top RF to Bottom Layer And Via (176.975mm,136.6mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_CVDD Between Via (168.05mm,129.8mm) from Top RF to Bottom Layer And Via (169.699mm,127.562mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Via (168.74mm,100.5mm) from Top RF to Bottom Layer And Via (168.74mm,108.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Via (168.74mm,100.5mm) from Top RF to Bottom Layer And Via (170.74mm,99.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Via (168.74mm,108.5mm) from Top RF to Bottom Layer And Via (172.74mm,107.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_CVDD Between Via (169.699mm,127.562mm) from Top RF to Bottom Layer And Via (177.225mm,127.6mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Via (170.74mm,102.5mm) from Top RF to Bottom Layer And Via (170.74mm,103.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Via (170.74mm,102.5mm) from Top RF to Bottom Layer And Via (171.74mm,101.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Via (170.74mm,103.5mm) from Top RF to Bottom Layer And Via (170.74mm,105.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Via (170.74mm,105.5mm) from Top RF to Bottom Layer And Via (170.74mm,106.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (170.74mm,107.5mm) from Top RF to Bottom Layer And Via (171.74mm,106.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Via (170.74mm,99.5mm) from Top RF to Bottom Layer And Via (173.54mm,59.7mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Via (170.74mm,99.5mm) from Top RF to Bottom Layer And Via (179.74mm,98.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Via (171.74mm,101.5mm) from Top RF to Bottom Layer And Via (172.74mm,101.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (171.74mm,102.5mm) from Top RF to Bottom Layer And Via (171.79mm,103.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (171.74mm,102.5mm) from Top RF to Bottom Layer And Via (172.74mm,102.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (171.74mm,105.5mm) from Top RF to Bottom Layer And Via (171.74mm,106.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (171.74mm,106.5mm) from Top RF to Bottom Layer And Via (172.74mm,106.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Via (172.74mm,101.5mm) from Top RF to Bottom Layer And Via (174.74mm,101.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetH3_1 Between Via (173.44mm,71.5mm) from Top RF to Bottom Layer And Via (177.14mm,59.7mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Via (174.725mm,131.45mm) from Top RF to Bottom Layer And Via (175.74mm,109.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Via (174.74mm,101.5mm) from Top RF to Bottom Layer And Via (175.74mm,101.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (174.74mm,102.5mm) from Top RF to Bottom Layer And Via (175.74mm,102.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (174.74mm,106.5mm) from Top RF to Bottom Layer And Via (175.74mm,106.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Via (174.74mm,107.5mm) from Top RF to Bottom Layer And Via (175.74mm,107.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Via (175.74mm,101.5mm) from Top RF to Bottom Layer And Via (176.74mm,102.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (175.74mm,102.5mm) from Top RF to Bottom Layer And Via (175.74mm,103.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (175.74mm,102.5mm) from Top RF to Bottom Layer And Via (176.74mm,101.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (175.74mm,105.5mm) from Top RF to Bottom Layer And Via (175.74mm,106.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Via (175.74mm,107.5mm) from Top RF to Bottom Layer And Via (175.74mm,109.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Via (175.74mm,107.5mm) from Top RF to Bottom Layer And Via (176.74mm,106.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Via (176.74mm,102.5mm) from Top RF to Bottom Layer And Via (176.74mm,103.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Via (176.74mm,103.5mm) from Top RF to Bottom Layer And Via (176.74mm,105.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_DVDD Between Via (176.74mm,105.5mm) from Top RF to Bottom Layer And Via (176.74mm,106.5mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_CVDD Between Via (177.225mm,127.6mm) from Top RF to Bottom Layer And Via (177.975mm,129.8mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_CVDD Between Via (177.975mm,129.8mm) from Top RF to Bottom Layer And Via (273.25mm,102.1mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (277mm,100.95mm) from Top RF to Bottom Layer And Via (277.05mm,97.85mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (277.125mm,85.5mm) from Top RF to Bottom Layer And Via (277.125mm,87.4mm) from Top RF to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (277.1mm,90.3mm) from Top RF to Bottom Layer And Via (277.125mm,88.4mm) from Top RF to Bottom Layer 
+Rule Violations :468
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.1mm) (Max=0.5mm) (Preferred=0.15mm) (All)
+   Violation between Width Constraint: Track (273.3mm,97.4mm)(273.3mm,98mm) on Bottom Layer Actual Width = 0.6mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (273.3mm,97.4mm)(273.9mm,97.4mm) on Bottom Layer Actual Width = 0.6mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (273.3mm,98mm)(273.9mm,98mm) on Bottom Layer Actual Width = 0.6mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (273.9mm,97.4mm)(273.9mm,98mm) on Bottom Layer Actual Width = 0.6mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (280.1mm,97.05mm)(280.1mm,97.65mm) on Bottom Layer Actual Width = 0.6mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (280.1mm,97.05mm)(280.7mm,97.05mm) on Bottom Layer Actual Width = 0.6mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (280.1mm,97.65mm)(280.7mm,97.65mm) on Bottom Layer Actual Width = 0.6mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (280.7mm,97.05mm)(280.7mm,97.65mm) on Bottom Layer Actual Width = 0.6mm, Target Width = 0.5mm
+Rule Violations :8
+
+Processing Rule : Width Constraint (Min=0.11mm) (Max=0.5mm) (Preferred=0.4mm) (InNetClass('Digi_50Ohm'))
+   Violation between Width Constraint: Track (142.45mm,73.05mm)(142.45mm,73.05mm) on Top RF Actual Width = 0.25mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (142.45mm,73.05mm)(142.45mm,73.88mm) on Top RF Actual Width = 0.25mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (142.45mm,73.88mm)(142.45mm,73.88mm) on Top RF Actual Width = 0.25mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (142.95mm,73.28mm)(142.95mm,73.88mm) on Top RF Actual Width = 0.25mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (165.05mm,115.758mm)(165.05mm,116.258mm) on Top RF Actual Width = 0.185mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (166.44mm,115.7mm)(166.44mm,116.2mm) on Top RF Actual Width = 0.185mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (166.94mm,115.7mm)(166.94mm,116.2mm) on Top RF Actual Width = 0.185mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (167.44mm,115.7mm)(167.44mm,116.2mm) on Top RF Actual Width = 0.185mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (168.29mm,115.7mm)(168.29mm,116.2mm) on Top RF Actual Width = 0.185mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (168.79mm,115.7mm)(168.79mm,116.2mm) on Top RF Actual Width = 0.185mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (169.29mm,115.7mm)(169.29mm,116.2mm) on Top RF Actual Width = 0.185mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (169.79mm,115.7mm)(169.79mm,116.2mm) on Top RF Actual Width = 0.185mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (170.64mm,115.7mm)(170.64mm,116.2mm) on Top RF Actual Width = 0.185mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (171.14mm,115.7mm)(171.14mm,116.2mm) on Top RF Actual Width = 0.185mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (171.64mm,115.7mm)(171.64mm,116.2mm) on Top RF Actual Width = 0.185mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (172.14mm,115.7mm)(172.14mm,116.2mm) on Top RF Actual Width = 0.185mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (172.99mm,115.7mm)(172.99mm,116.2mm) on Top RF Actual Width = 0.185mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (173.49mm,115.7mm)(173.49mm,116.2mm) on Top RF Actual Width = 0.185mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (173.99mm,115.7mm)(173.99mm,116.2mm) on Top RF Actual Width = 0.185mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (174.49mm,115.7mm)(174.49mm,116.2mm) on Top RF Actual Width = 0.185mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (175.34mm,115.7mm)(175.34mm,116.2mm) on Top RF Actual Width = 0.185mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (175.84mm,115.7mm)(175.84mm,116.2mm) on Top RF Actual Width = 0.185mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (176.34mm,115.7mm)(176.34mm,116.2mm) on Top RF Actual Width = 0.185mm, Target Width = 0.5mm
+   Violation between Width Constraint: Track (176.84mm,115.7mm)(176.84mm,116.2mm) on Top RF Actual Width = 0.185mm, Target Width = 0.5mm
+Rule Violations :24
+
+Processing Rule : Width Constraint (Min=0.11mm) (Max=0.5mm) (Preferred=0.4mm) (InNetClass('RF_50Ohm'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.1mm) (Max=3.5mm) (Preferred=0.254mm) (InNetClass('All Nets'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=1mm) (InPadClass('MicroMechanical'))
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=5mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mm) (Max=4mm) (InPadClass('Mechanical'))
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.15mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.01mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.01mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.01mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=25.4mm) (InDifferentialPair ('TX_IOUTA'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 500
+Waived Violations : 0
+Time Elapsed        : 00:00:01

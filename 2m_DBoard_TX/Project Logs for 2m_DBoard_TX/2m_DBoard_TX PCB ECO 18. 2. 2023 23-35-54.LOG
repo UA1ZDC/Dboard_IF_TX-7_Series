@@ -1,0 +1,30 @@
+Change Component Footprint: Designator=C104 Old Footprint=C0603 New Footprint=C0402
+Change Component Footprint: Designator=C106 Old Footprint=C0603 New Footprint=C0402
+Change Component Footprint: Designator=C115 Old Footprint=C0603 New Footprint=C0402
+Change component parameters: Designator = "C104" ("C104"); Footprint = "C0603"; UniqueID = "\ZQFRQTES" ("\ZQFRQTES")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Material"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "P/N"; Value = "???GRM188R71H221KA01D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Ceramic Capacitor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "220pF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C106" ("C106"); Footprint = "C0603"; UniqueID = "\WBZEDEFJ" ("\WBZEDEFJ")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Material"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "P/N"; Value = "???GRM188R71H221KA01D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Ceramic Capacitor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "220pF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C115" ("C115"); Footprint = "C0603"; UniqueID = "\MHAAXPIV" ("\MHAAXPIV")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Material"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "P/N"; Value = "???GRM188R71H221KA01D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Ceramic Capacitor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "220pF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=DBoard_conn Member=Component C? CAP
+Added Room: Name=CPLD
+Added Room: Name=DBoard_conn

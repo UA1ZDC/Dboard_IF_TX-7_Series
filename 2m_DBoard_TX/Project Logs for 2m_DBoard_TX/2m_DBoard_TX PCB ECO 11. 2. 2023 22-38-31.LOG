@@ -1,0 +1,10 @@
+Change Component Footprint: Designator=C57 Old Footprint=C1206 New Footprint=C0603
+Change component parameters: Designator = "C57" ("C57"); Footprint = "C1206"; UniqueID = "\FDYIDHDD" ("\FDYIDHDD")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Material"; Value = "NP0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "P/N"; Value = "GRM3195C1H273JA01D???"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±5%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Ceramic Capacitor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "27nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=DBoard_conn Member=Component C? CAP

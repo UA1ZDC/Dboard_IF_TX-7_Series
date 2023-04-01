@@ -1,0 +1,22 @@
+Added Component: Designator=R32(EXN8V)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "EXBN8V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Resistors"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Terminals"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "P/N"; Value = "ERJ-2GEJ330X"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "EXB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "0402 Array Concave Terminal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "33"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD14_P1 Pin=R32-1
+Added Pin To Net: NetName=NetD14_N3 Pin=R32-2
+Added Pin To Net: NetName=NetD14_N1 Pin=R32-3
+Added Pin To Net: NetName=NetD14_N2 Pin=R32-4
+Added Pin To Net: NetName=cpld_io_12 Pin=R32-5
+Added Pin To Net: NetName=cpld_io_13 Pin=R32-6
+Added Pin To Net: NetName=cpld_io_14 Pin=R32-7
+Added Pin To Net: NetName=cpld_io_15 Pin=R32-8
+Added Member To Class: ClassName=DBoard_conn Member=Component C? CAP
+Added Member To Class: ClassName=CPLD Member=Component R32 RES 4x0402
+Added Room: Name=CPLD
+Added Room: Name=DBoard_conn

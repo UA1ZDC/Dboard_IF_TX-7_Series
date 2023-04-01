@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=LO2_REF_TX Pin=C41-1
+Removed Pin From Net: NetName=LO1_REF_TX Pin=C42-1
+Removed Pin From Net: NetName=NetC42_2 Pin=T2-1
+Removed Pin From Net: NetName=NetC41_2 Pin=T2-3
+Added Pin To Net: NetName=LO1_REF_TX Pin=C41-1
+Added Pin To Net: NetName=LO2_REF_TX Pin=C42-1
+Added Pin To Net: NetName=NetC41_2 Pin=T2-1
+Added Pin To Net: NetName=NetC42_2 Pin=T2-3

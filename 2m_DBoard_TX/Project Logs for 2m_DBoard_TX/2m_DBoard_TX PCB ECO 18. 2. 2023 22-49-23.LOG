@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=AGND Pin=C58-2
+Added Pin To Net: NetName=GND Pin=C58-2
+Added Member To Class: ClassName=DBoard_conn Member=Component C? CAP
+Added Room: Name=CPLD
+Added Room: Name=DBoard_conn

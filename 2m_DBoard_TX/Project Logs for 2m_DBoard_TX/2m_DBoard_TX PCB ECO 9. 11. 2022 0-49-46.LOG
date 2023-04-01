@@ -1,0 +1,59 @@
+Removed Pin From Net: NetName=GND Pin=C178-2
+Removed Pin From Net: NetName=GND Pin=C179-2
+Removed Pin From Net: NetName=GND Pin=C187-2
+Removed Pin From Net: NetName=3V3_CVDD_RX Pin=C188-1
+Removed Pin From Net: NetName=GND Pin=C188-2
+Removed Pin From Net: NetName=GND Pin=C192-2
+Removed Pin From Net: NetName=GND Pin=C193-2
+Removed Pin From Net: NetName=GND Pin=C200-2
+Removed Pin From Net: NetName=5V_CVDD_RX Pin=C201-1
+Removed Pin From Net: NetName=GND Pin=C201-2
+Removed Pin From Net: NetName=GND Pin=C204-2
+Removed Pin From Net: NetName=GND Pin=C205-2
+Removed Pin From Net: NetName=-3V4_DVSS_RX Pin=C206-1
+Removed Pin From Net: NetName=GND Pin=C206-2
+Removed Pin From Net: NetName=GND Pin=C208-2
+Removed Pin From Net: NetName=GND Pin=D32-0
+Removed Pin From Net: NetName=GND Pin=D32-2
+Removed Pin From Net: NetName=GND Pin=D32-3
+Removed Pin From Net: NetName=GND Pin=D32-5
+Removed Pin From Net: NetName=GND Pin=D35-0
+Removed Pin From Net: NetName=3V3_CVDD_RX Pin=D35-1
+Removed Pin From Net: NetName=GND Pin=D35-2
+Removed Pin From Net: NetName=GND Pin=D35-3
+Removed Pin From Net: NetName=GND Pin=D35-5
+Removed Pin From Net: NetName=GND Pin=D37-0
+Removed Pin From Net: NetName=GND Pin=D37-2
+Removed Pin From Net: NetName=GND Pin=D37-3
+Removed Pin From Net: NetName=GND Pin=D37-5
+Removed Pin From Net: NetName=GND Pin=D39-0
+Removed Pin From Net: NetName=5V_CVDD_RX Pin=D39-1
+Removed Pin From Net: NetName=GND Pin=D39-2
+Removed Pin From Net: NetName=GND Pin=D39-3
+Removed Pin From Net: NetName=GND Pin=D39-5
+Removed Pin From Net: NetName=GND Pin=D41-0
+Removed Pin From Net: NetName=GND Pin=D41-2
+Removed Pin From Net: NetName=-3V4_DVSS_RX Pin=D41-4
+Removed Pin From Net: NetName=GND Pin=D42-0
+Removed Pin From Net: NetName=GND Pin=D42-2
+Removed Pin From Net: NetName=GND Pin=D42-3
+Removed Pin From Net: NetName=GND Pin=D42-5
+Removed Pin From Net: NetName=-3V4_DVSS_RX Pin=K4-1
+Removed Pin From Net: NetName=-3V4_DVSS_RX Pin=R78-2
+Removed Pin From Net: NetName=GND Pin=R79-1
+Removed Pin From Net: NetName=GND Pin=R80-2
+Added Pin To Net: NetName=6V_TX Pin=X1-4
+Added Pin To Net: NetName=6V_TX Pin=X1-6
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Red
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(255, 153, 0)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(153, 0, 255)
+Change Net Color : Old Net Color=RGB(74, 134, 232) New Net Color=Default
+Change Net Color : Old Net Color=Fuchsia New Net Color=Default
+Change Net Color : Old Net Color=Yellow New Net Color=Default
+Change Net Color : Old Net Color=Blue New Net Color=Default
+Change Net Color : Old Net Color=Fuchsia New Net Color=Default
+Change Net Color : Old Net Color=RGB(204, 0, 0) New Net Color=Default
+Change Net Color : Old Net Color=Lime New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 153, 0) New Net Color=Default
+Added Member To Class: ClassName=DBoard_conn Member=Component C? CAP
+Added Member To Class: ClassName=CPLD Member=Component D16 XC2C256-7FTG256C

@@ -1,0 +1,58 @@
+Added Component: Designator=R33(EXN8V)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "EXBN8V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Resistors"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Terminals"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "P/N"; Value = "ERJ-2GEJ330X"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "EXB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "0402 Array Concave Terminal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "33"; VariantName = "[No Variations]"
+Added Component: Designator=R34(EXN8V)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "EXBN8V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Resistors"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Terminals"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "P/N"; Value = "ERJ-2GEJ330X"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "EXB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "0402 Array Concave Terminal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "33"; VariantName = "[No Variations]"
+Added Component: Designator=R35(EXN8V)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "EXBN8V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Resistors"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Terminals"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "P/N"; Value = "ERJ-2GEJ330X"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "EXB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "0402 Array Concave Terminal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "33"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD14_L5 Pin=R33-1
+Added Pin To Net: NetName=NetD14_L4 Pin=R33-2
+Added Pin To Net: NetName=NetD14_L3 Pin=R33-3
+Added Pin To Net: NetName=NetD14_M1 Pin=R33-4
+Added Pin To Net: NetName=cpld_io_11 Pin=R33-5
+Added Pin To Net: NetName=cpld_io_10 Pin=R33-6
+Added Pin To Net: NetName=cpld_io_09 Pin=R33-7
+Added Pin To Net: NetName=cpld_io_08 Pin=R33-8
+Added Pin To Net: NetName=NetD14_F2 Pin=R34-1
+Added Pin To Net: NetName=NetD14_G3 Pin=R34-2
+Added Pin To Net: NetName=NetD14_H1 Pin=R34-3
+Added Pin To Net: NetName=NetD14_H2 Pin=R34-4
+Added Pin To Net: NetName=cpld_io_07 Pin=R34-5
+Added Pin To Net: NetName=cpld_io_06 Pin=R34-6
+Added Pin To Net: NetName=cpld_io_05 Pin=R34-7
+Added Pin To Net: NetName=cpld_io_04 Pin=R34-8
+Added Pin To Net: NetName=NetD14_D2 Pin=R35-2
+Added Pin To Net: NetName=NetD14_E2 Pin=R35-3
+Added Pin To Net: NetName=NetD14_F3 Pin=R35-4
+Added Pin To Net: NetName=cpld_io_03 Pin=R35-5
+Added Pin To Net: NetName=cpld_io_02 Pin=R35-6
+Added Pin To Net: NetName=cpld_io_01 Pin=R35-7
+Added Member To Class: ClassName=DBoard_conn Member=Component C? CAP
+Added Member To Class: ClassName=CPLD Member=Component R33 RES 4x0402
+Added Member To Class: ClassName=CPLD Member=Component R34 RES 4x0402
+Added Member To Class: ClassName=CPLD Member=Component R35 RES 4x0402
+Added Room: Name=CPLD
+Added Room: Name=DBoard_conn

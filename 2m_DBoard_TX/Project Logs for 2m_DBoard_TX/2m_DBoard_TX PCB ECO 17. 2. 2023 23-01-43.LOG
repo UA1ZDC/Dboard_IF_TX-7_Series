@@ -1,0 +1,39 @@
+Removed Pin From Net: NetName=NetD14_P1 Pin=R32-1
+Removed Pin From Net: NetName=NetD14_N3 Pin=R32-2
+Removed Pin From Net: NetName=NetD14_N1 Pin=R32-3
+Removed Pin From Net: NetName=NetD14_N2 Pin=R32-4
+Removed Pin From Net: NetName=cpld_io_12 Pin=R32-5
+Removed Pin From Net: NetName=cpld_io_13 Pin=R32-6
+Removed Pin From Net: NetName=cpld_io_14 Pin=R32-7
+Removed Pin From Net: NetName=cpld_io_15 Pin=R32-8
+Added Pin To Net: NetName=NetD14_N2 Pin=R32-1
+Added Pin To Net: NetName=NetD14_N1 Pin=R32-2
+Added Pin To Net: NetName=NetD14_N3 Pin=R32-3
+Added Pin To Net: NetName=NetD14_P1 Pin=R32-4
+Added Pin To Net: NetName=cpld_io_15 Pin=R32-5
+Added Pin To Net: NetName=cpld_io_14 Pin=R32-6
+Added Pin To Net: NetName=cpld_io_13 Pin=R32-7
+Added Pin To Net: NetName=cpld_io_12 Pin=R32-8
+Added Pin To Net: NetName=CS_LTC6948 Pin=R30-8
+Added Net: Name=CS_LTC6948
+Added Pin To Net: NetName=MISO_LTC6948 Pin=R30-5
+Added Net: Name=MISO_LTC6948
+Added Pin To Net: NetName=MOSI_LTC6948 Pin=R30-6
+Added Net: Name=MOSI_LTC6948
+Added Pin To Net: NetName=NetD14_R4 Pin=D14-R4
+Added Pin To Net: NetName=NetD14_R4 Pin=R30-2
+Added Net: Name=NetD14_R4
+Added Pin To Net: NetName=NetD14_T1 Pin=D14-T1
+Added Pin To Net: NetName=NetD14_T1 Pin=R30-4
+Added Net: Name=NetD14_T1
+Added Pin To Net: NetName=NetD14_T3 Pin=D14-T3
+Added Pin To Net: NetName=NetD14_T3 Pin=R30-3
+Added Net: Name=NetD14_T3
+Added Pin To Net: NetName=NetD14_T4 Pin=D14-T4
+Added Pin To Net: NetName=NetD14_T4 Pin=R30-1
+Added Net: Name=NetD14_T4
+Added Pin To Net: NetName=SCLK_LTC6948 Pin=R30-7
+Added Net: Name=SCLK_LTC6948
+Added Member To Class: ClassName=DBoard_conn Member=Component C? CAP
+Added Room: Name=CPLD
+Added Room: Name=DBoard_conn

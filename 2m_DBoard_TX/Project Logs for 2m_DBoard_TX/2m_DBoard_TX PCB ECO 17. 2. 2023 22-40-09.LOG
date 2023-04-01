@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=GND Pin=C58-2
+Change Component Designator: OldDesignator=R82 NewDesignator=R32
+Added Pin To Net: NetName=AGND Pin=C58-2
+Added Pin To Net: NetName=NetD14_P1 Pin=R32-1
+Added Pin To Net: NetName=NetD14_N3 Pin=R32-2
+Added Pin To Net: NetName=NetD14_N1 Pin=R32-3
+Added Pin To Net: NetName=NetD14_N2 Pin=R32-4
+Added Pin To Net: NetName=cpld_io_12 Pin=R32-5
+Added Pin To Net: NetName=cpld_io_13 Pin=R32-6
+Added Pin To Net: NetName=cpld_io_14 Pin=R32-7
+Added Pin To Net: NetName=cpld_io_15 Pin=R32-8
+Added Member To Class: ClassName=CPLD Member=Component C89 CAP
+Added Member To Class: ClassName=CPLD Member=Component C100 CAP
+Added Member To Class: ClassName=DBoard_conn Member=Component C? CAP
+Added Member To Class: ClassName=CPLD Member=Component D14 XC2C256-7FTG256C
+Added Member To Class: ClassName=CPLD Member=Component R30 RES 4x0402
+Added Member To Class: ClassName=CPLD Member=Component R31 RES 4x0402
+Added Member To Class: ClassName=CPLD Member=Component R32 RES 4x0402
+Added Member To Class: ClassName=CPLD Member=Component R33 RES 4x0402
+Added Member To Class: ClassName=CPLD Member=Component R34 RES 4x0402
+Added Member To Class: ClassName=CPLD Member=Component R35 RES 4x0402
+Added Member To Class: ClassName=CPLD Member=Component R36 RES 4x0402
+Added Member To Class: ClassName=CPLD Member=Component R37 RES 4x0402
+Added Member To Class: ClassName=CPLD Member=Component R38 RES 4x0402
+Added Member To Class: ClassName=CPLD Member=Component R39 RES 4x0402
+Added Member To Class: ClassName=CPLD Member=Component R41 RES 4x0402
+Added Room: Name=CPLD
+Added Room: Name=DBoard_conn

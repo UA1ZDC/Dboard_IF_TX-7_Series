@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=I2C_A0_TX Pin=D24-1
+Added Pin To Net: NetName=I2C_A1_TX Pin=D24-2
+Added Pin To Net: NetName=SDA_TX Pin=D24-5
+Added Pin To Net: NetName=SCL_TX Pin=D24-6
+Added Member To Class: ClassName=DBoard_conn Member=Component C? CAP
+Added Room: Name=CPLD
+Added Room: Name=DBoard_conn

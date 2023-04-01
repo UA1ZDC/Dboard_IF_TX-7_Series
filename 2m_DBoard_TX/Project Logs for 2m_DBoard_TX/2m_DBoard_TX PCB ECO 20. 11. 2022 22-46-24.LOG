@@ -1,0 +1,20 @@
+Added Pin To Net: NetName=_12V_TPS Pin=K3-1
+Change Net Color : Old Net Color=RGB(153, 0, 255) New Net Color=Default
+Change Net Color : Old Net Color=Lime New Net Color=Default
+Change Net Color : Old Net Color=Aqua New Net Color=Default
+Change Net Color : Old Net Color=RGB(74, 134, 232) New Net Color=Default
+Change Net Color : Old Net Color=Fuchsia New Net Color=Default
+Change Net Color : Old Net Color=Red New Net Color=Default
+Change Net Color : Old Net Color=Red New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 153, 0) New Net Color=Default
+Change Net Color : Old Net Color=RGB(153, 0, 255) New Net Color=Default
+Change Net Color : Old Net Color=Yellow New Net Color=Default
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Yellow
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Red
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(255, 153, 0)
+Change Net Color : Old Net Color=Yellow New Net Color=Default
+Change Net Color : Old Net Color=Red New Net Color=Default
+Change Net Color : Old Net Color=Yellow New Net Color=Default
+Added Member To Class: ClassName=DBoard_conn Member=Component C? CAP
+Added Room: Name=CPLD
+Added Room: Name=DBoard_conn

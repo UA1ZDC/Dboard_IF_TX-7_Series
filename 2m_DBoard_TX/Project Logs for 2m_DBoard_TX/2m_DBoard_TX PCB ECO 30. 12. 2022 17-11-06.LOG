@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=IFREQ_MBAND_TX Pin=D9-4
+Removed Pin From Net: NetName=HFREQ_TX Pin=D9-24
+Added Pin To Net: NetName=HFREQ_TX Pin=D9-4
+Added Pin To Net: NetName=IFREQ_MBAND_TX Pin=D9-24
+Added Member To Class: ClassName=DBoard_conn Member=Component C? CAP

@@ -1,0 +1,42 @@
+Added Pin To Net: NetName=GND Pin=C58-2
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Fuchsia
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Aqua
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Yellow
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Lime
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=RGB(255, 153, 0)
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Red
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=RGB(74, 134, 232)
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Fuchsia
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 255, 102) New Net Color=Default
+Added Member To Class: ClassName=DBoard_conn Member=Component C? CAP
+Added Room: Name=CPLD
+Added Room: Name=DBoard_conn

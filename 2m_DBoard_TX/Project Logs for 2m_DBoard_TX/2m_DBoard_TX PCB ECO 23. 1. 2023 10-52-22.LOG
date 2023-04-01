@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=NetD5_24 Pin=Z1-OUT
+Removed Pin From Net: NetName=NetD5_2 Pin=Z2-OUT
+Added Pin To Net: NetName=NetD5_2 Pin=Z1-OUT
+Added Pin To Net: NetName=NetD5_24 Pin=Z2-OUT
+Added Member To Class: ClassName=DBoard_conn Member=Component C? CAP

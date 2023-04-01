@@ -1,0 +1,13 @@
+Change Net Color : Old Net Color=Red New Net Color=Default
+Change Net Color : Old Net Color=Yellow New Net Color=Default
+Change Net Color : Old Net Color=Aqua New Net Color=Default
+Change Net Color : Old Net Color=Lime New Net Color=Default
+Change Net Color : Old Net Color=RGB(74, 134, 232) New Net Color=Default
+Change Net Color : Old Net Color=Fuchsia New Net Color=Default
+Change Net Color : Old Net Color=RGB(153, 0, 255) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 217, 102) New Net Color=Aqua
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Yellow
+Change Net Color : Old Net Color=RGB(246, 178, 107) New Net Color=Lime
+Change Net Color : Old Net Color=RGB(204, 65, 37) New Net Color=RGB(255, 153, 0)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Red
+Added Member To Class: ClassName=DBoard_conn Member=Component C? CAP
