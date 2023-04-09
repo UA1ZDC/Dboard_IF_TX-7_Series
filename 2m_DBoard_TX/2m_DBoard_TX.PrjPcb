@@ -2031,16 +2031,17 @@ Net35=NetName=MUTE_LO1|NetColor=$00E8864A
 Net36=NetName=pa_path_ctrl2v_rx|NetColor=$006666E0
 Net37=NetName=pa_path_ctrl3v_rx|NetColor=$006666E0
 Net38=NetName=PLL1_TX_CS|NetColor=$000099FF
-Net39=NetName=SCL_TX|NetColor=$00FF0099
-Net40=NetName=SCLK_ATT|NetColor=$00FF0099
-Net41=NetName=SCLK_LO1|NetColor=$00E8864A
-Net42=NetName=SCLK_LO2|NetColor=$00E8864A
-Net43=NetName=SCLK_TX|NetColor=clBlue
-Net44=NetName=SDA_TX|NetColor=$00FF0099
-Net45=NetName=SEN_TX|NetColor=clBlue
-Net46=NetName=STAT_LO1|NetColor=$00E8864A
-Net47=NetName=STAT_LO2|NetColor=$00E8864A
-Net48=NetName=TPS_EN|NetColor=$004FA86A
+Net39=NetName=QMOD_DSOP|NetColor=$00794DA6
+Net40=NetName=SCL_TX|NetColor=$00FF0099
+Net41=NetName=SCLK_ATT|NetColor=$00FF0099
+Net42=NetName=SCLK_LO1|NetColor=$00E8864A
+Net43=NetName=SCLK_LO2|NetColor=$00E8864A
+Net44=NetName=SCLK_TX|NetColor=clBlue
+Net45=NetName=SDA_TX|NetColor=$00FF0099
+Net46=NetName=SEN_TX|NetColor=clBlue
+Net47=NetName=STAT_LO1|NetColor=$00E8864A
+Net48=NetName=STAT_LO2|NetColor=$00E8864A
+Net49=NetName=TPS_EN|NetColor=$004FA86A
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
