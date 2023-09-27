@@ -1,0 +1,103 @@
+CSV text has been written to file : DBLib.csv
+
+Library Component Count : 89
+
+Name                Description
+----------------------------------------------------------------------------------------------------
+
+353630460           2.00mm Pitch Sherlock Wire-to-Board Header, Right-Angle, with Positive Lock, 4 Circuits
+AD5780BCPZ          Single 18-Bit System Ready Voltage Output Digital-to-Analog Converter, + / -1 LSB INL, -40 to +125 degC, CP-24-5, Pb-Free, Reel
+AD9516              14-Output Clock Generator
+AD9652              Dual, 16-bit analog-to-digital converter (ADC)
+with sampling speeds of up to 310 MSPS
+AD9910              1 GSPS, 14-Bit, 3.3 V CMOS
+Direct Digital Synthesizer
+ADL5375             Broadband Quadrature Modulator
+ADL5380             Quadrature Demodulator
+ADL5610             RF/IF Gain Block
+ADT1-6T+            RF Transformer
+BD1222J50200AHF     RF Transformer
+BFCG-162W+          Bandpass Filter
+BFCN-1860+          Bandpass Filter
+BFCN-2500+          Bandpass Filter
+BFCV-2895+          Bandpass Filter
+BFCV-4085+          Bandpass Filter
+BFCV-5270+          Bandpass Filter
+BPF-C510+           Wide band filter
+CCSS-945            Ultra Low Noise
+SineWave Clock Oscillator
+CVCSO-914           1GHz SAW Based VCSO
+Cap Polarity        Tantalum Polarity SMD Capacitor
+DBoard              USRP DBoard
+Edge Card Connector 0.80 mm High-Speed Edge Card Connector, Right-Angle
+Edge Card Connector_Ghost0.80 mm High-Speed Edge Card Connector, Right-Angle
+G3VM-61GR1          MOS FET Relay
+HDR Debug_14-pin    14-pin PCB Header
+HHM1518A3           Multilayer Balun
+HMC311LP3           InGaP HBT GAIN BLOCK
+HMC589AST89E        InGaP HBT GAIN BLOCK
+HMC637BPM5E         1 W Power Amplifier
+HMC802ALP3E         POSITIVE CONTROL ATTENUATOR
+HMC8410             Low Noise Amplifier
+HPF_750MHz          High Pass Filter
+HSMS-281x           RF Schottky Barrier Diodes
+INA168-Q1           Automotive-Grade, High-Side, Current-Output, Current-Shunt Monitor
+IRLML2244           P-Channel MOSFET
+Inductor            Chip SMD Inductor
+Inductor RF         Chip SMD Inductor
+Inductor_BCR        Broadband Conical Inductor
+LDPG-212-322+       Diplexer
+LDPW-162-242+       Diplexer
+LED                 CHIP LED LAMP
+LFCG-92+            Low Pass Filter
+LLA219C70G225M      0805 2.2 uF 4 V ±20 % Tolerance X7S Surface Mount Multilayer Ceramic Capacitor
+LM27761             Low-Noise, Regulated, Switched-Capacitor Voltage Inverter
+LMH5401             Fully Differential Amplifier
+LMH6554             Fully Differential Amplifier
+LP38692             Linear Regulator
+LP5912              LP5912 500-mA Low-Noise, Low-IQ LDO
+LPF_600MHz          Low Pass Filter
+LPF_800MHz          Low Pass Filter
+LT5534              50MHz to 3GHz monolithic RF power
+detector
+LTC5510             1MHz to 6GHz Wideband High Linearity Active Mixer
+LTC5594             Quadrature Demodulator
+LTC6946             The LTC®6946 is a high performance, low noise, 6.39GHz  phase-locked loop (PLL)
+LTC6948             The LTC®LTC6948 is a high performance, low noise, 6.39GHz  phase-locked loop (PLL)
+LTC6951             Ultralow Jitter
+Multioutput Clock Synthesizer
+with Integrated VCO
+Mini-Fit Jr. Header, Dual Row, Right-AngleMini-Fit Jr. Header, Dual Row, Right-Angle, with Snap-in Plastic Peg PCB Lock
+Mini-Fit Jr. Vertical Header4.20mm Pitch, Dual Row, 2 Circuits, without Snap-in Plastic Peg PCB Lock
+Molex_SEARAY™ 45970 1.27mm Pitch, SEARAY Plug, 240 Circuits, 2.00mm Unmated Height, 8 Rows, with Pegs
+NCS4-232+           RF Transformer
+Nano-Fit Power ConnectorThrough Hole, 2.50mm Pitch, Single Row, 2 Circuits
+PE42553             HaRPTM technology-enhanced absorptive SPDT
+PE42562             The PE42582 is a HaRP™ technology-enhanced absorptive SP6T RF switch
+PE42582             The PE42582 is a HaRP™ technology-enhanced absorptive SP8T RF switch
+PE43205             50?, HaRP™ technology-enhanced
+fast switching 2-bit RF Digital Step Attenuator
+PE43711             The PE43711 is a 50?, HaRP™ technology-enhanced, 7-bit RF digital step attenuator
+PHA-13LN+           Monolithic Amplifier
+PMA3-83LNW+         PHEMT based wideband, low noise MMIC amplifier
+RF Connector        50 Ohms, SMA Jack, Vertica
+RHP-260+            High Pass Filter
+RHP-44+             High Pass Filter
+RJP020N06           N-Channel MOSFET
+RLP-1094+           Low Pass Filter
+RLP-120+            Low Pass Filter
+SIM-43MH+           Frequency Mixer
+SSM3K339R           N-Channel MOSFET
+STM32F103C8         Medium-density performance line ARM®-based 32-bit MCU
+SXLP-1100+          Low Pass Filter
+SYD-20-33+          Directional Coupler
+TC2-1TX+            RF Transformer
+TC3-1TX+            RF Transformer
+TC4-1TX+            RF Transformer
+TCM1-43X+           RF Transformer
+TCM1-83X+           RF Transformer
+TCM2-452X-2+        RF Transformer
+TCM3-452X+          RF Transformer
+TCM4-452X+          RF Transformer
+TPS611781           10-A Fully-Integrated Synchronous Boost with Load Disconnect Control
+XC2C256-7FTG256C    CoolRunner-II 1.8V, 256 Macrocell CPLD, 184 User I/Os, 256-Ball FTBGA, Commercial Grade, Pb-Free
