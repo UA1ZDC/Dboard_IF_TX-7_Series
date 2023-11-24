@@ -1,0 +1,60 @@
+﻿Board Layer Stack
+Number;Name;Type;Manufacturer;Material;Process;Thickness (mm);Weight (oz);Dk;Df;Orientation;Copper Orientation;Pullback distance (mm);Description;Color;Constructions;Solid (%);Resin (%);Frequency (GHz);GlassTransTemp (°C)
+;Top Overlay;Overlay;;;;;;;;;;;;;;;;;
+;Top Solder;Solder Mask;Altium Designer;Solder resist;;0.01016;;3.5;0.03;;;;Solder Mask;#FF008000;;1;;1;125
+1;Top RF;Signal;Altium Designer;CF-003;ED;0.018;0.5;;;Top;Above;;Copper Foil;;;;;;
+;Core 1;Core;Altium Designer;RO4003;;0.305;;3.38;0.02;;;;;;2116;;57;1;180
+2;AGND;Plane;Altium Designer;CF-003;ED;0.018;0.5;;;;Below;0.508;Copper Foil;;;;;;
+;Dielectric 1;Prepreg;Altium Designer;RO4450F;;0.1;;3.52;0.02;;;;;;1080;;62;1;180
+3;Inner RF;Signal;Altium Designer;CF-003;ED;0.018;0.5;;;Not allowed;Above;;Copper Foil;;;;;;
+;Core 2;Core;Altium Designer;RO4003;;0.305;;3.38;0.02;;;;;;1080;;62;1;180
+4;AGND 2;Plane;Altium Designer;CF-003;ED;0.018;0.5;;;;Below;0.508;Copper Foil;;;;;;
+;Dielectric 2;Prepreg;ISOLA;2116(Tg170);;0.125;;5.1;0.015;;;;;;2116;;56;1;170
+5;AVDD;Plane;Altium Designer;CF-003;ED;0.018;0.5;;;;Above;0.508;Copper Foil;;;;;;
+;Core 3;Core;Altium Designer;FR4 (Tg170);;0.3;;4.5;0.02;;;;;;1080;;62;1;180
+6;AVDD 2;Plane;Altium Designer;CF-003;ED;0.018;0.5;;;;Below;0.508;Copper Foil;;;;;;
+;Dielectric 3;Prepreg;Altium Designer;2116(Tg170);;0.125;;5.1;0.02;;;;;;1080;;62;1;180
+7;DVDD 2;Plane;Altium Designer;CF-003;ED;0.018;0.5;;;;Above;0.508;Copper Foil;;;;;;
+;Core 4;Core;;FR4 (Tg170);;0.3;;4.5;;;;;;;;;;;
+8;DVDD;Plane;Altium Designer;CF-003;ED;0.018;0.5;;;;Below;0.508;Copper Foil;;;;;;
+;Dielectric 4;Prepreg;Altium Designer;2116(Tg170);;0.125;;5.1;0.02;;;;;;2116;;57;1;180
+9;GND 2;Plane;Altium Designer;CF-003;ED;0.018;0.5;;;;Above;0.508;Copper Foil;;;;;;
+;Core 5;Core;Altium Designer;FR4 (Tg170);;0.3;;4.5;0.02;;;;;;1080;;62;1;180
+10;Signal;Signal;Altium Designer;CF-003;ED;0.018;0.5;;;Not allowed;Below;;Copper Foil;;;;;;
+;Dielectric 5;Prepreg;Altium Designer;2116(Tg170);;0.125;;5.1;0.02;;;;;;1080;;62;1;180
+11;GND;Plane;Altium Designer;CF-003;ED;0.018;0.5;;;;Above;0.508;Copper Foil;;;;;;
+;Core 6;Core;Altium Designer;FR4 (Tg170);;0.3;;4.5;0.02;;;;;;1080;;62;1;180
+12;Bottom Layer;Signal;Altium Designer;CF-003;ED;0.018;0.5;;;Bottom;Below;;Copper Foil;;;;;;
+;Bottom Solder;Solder Mask;Altium Designer;Solder resist;;0.01016;;3.5;0.03;;;;Solder Mask;#FF008000;;1;;1;125
+;Bottom Overlay;Overlay;;;;;;;;;;;;;;;;;
+
+
+Impedances
+#;Target impedance (Ω);Type;Trace layer;Calculated impedance (Ω);Trace width (mm);Gap (mm);Reference layers;Stack
+1;50;Single;Top RF;50.1207;0.5;;AGND;Board Layer Stack
+
+2;50;Single;Inner RF;50.217;0.35;;AGND 2;Board Layer Stack
+
+3;50;Single;Bottom Layer;50.2061;0.4;;GND;Board Layer Stack
+
+4;50;Single;AVDD 2;55.1464;0.12;;AVDD;DVDD;Board Layer Stack
+
+5;50;Single;Signal;49.5327;0.11;;GND 2;GND;Board Layer Stack
+
+6;100;Diff pair;Top RF;100.0069;0.315;0.15;AGND;Board Layer Stack
+
+7;100;Diff pair;Inner RF;99.8665;0.175;0.15;AGND 2;Board Layer Stack
+
+8;100;Diff pair;Bottom Layer;100.4835;0.215;0.14;GND;Board Layer Stack
+
+9;100;Diff pair;AVDD 2;108.0126;0.1;0.3;AVDD;DVDD;Board Layer Stack
+
+10;100;Diff pair;Signal;100.1714;0.1;0.245;GND 2;GND;Board Layer Stack
+
+
+Via types
+#;Name;Type;Layers;Stack
+1;Thru 1:12;Thru;Top RF-Bottom Layer;Board Layer Stack
+
+
+No back drills

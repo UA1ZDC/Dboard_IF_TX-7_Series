@@ -1,7 +1,0 @@
-Removed Pin From Net: NetName=TX_IOUTB_N Pin=X1-49
-Removed Pin From Net: NetName=TX_IOUTB_P Pin=X1-51
-Added Pin To Net: NetName=TX_IOUTB_P Pin=X1-49
-Added Pin To Net: NetName=TX_IOUTB_N Pin=X1-51
-Added Member To Class: ClassName=DBoard_conn Member=Component C? CAP
-Added Room: Name=CPLD
-Added Room: Name=DBoard_conn

@@ -1,6 +1,0 @@
-Removed Pin From Net: NetName=HFREQ_TX Pin=D5-4
-Added Pin To Net: NetName=HFREQ_TX Pin=D5-2
-Added Pin To Net: NetName=NetD5_4 Pin=D5-4
-Added Pin To Net: NetName=NetD5_4 Pin=Z1-OUT
-Added Net: Name=NetD5_4
-Added Member To Class: ClassName=DBoard_conn Member=Component C? CAP

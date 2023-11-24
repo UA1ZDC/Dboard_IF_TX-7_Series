@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [2m_DBoard_TX.PrjPcb]
+   Generated File[2m_DBoard_TX.TXT]
+   Generated File[2m_DBoard_TX.LDP]
+   Generated File[2m_DBoard_TX.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 15:16:09 On 24. 11. 2023

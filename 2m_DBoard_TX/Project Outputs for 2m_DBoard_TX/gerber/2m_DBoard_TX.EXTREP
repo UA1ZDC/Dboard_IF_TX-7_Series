@@ -1,0 +1,29 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: 2m_DBoard_TX.GBR   24. 11. 2023  15:15:41
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                Top RF                                  
+.GP1                AGND                                    
+.G1                 Inner RF                                
+.GP2                AGND 2                                  
+.GP3                AVDD                                    
+.GP4                AVDD 2                                  
+.GP5                DVDD 2                                  
+.GP6                DVDD                                    
+.GP7                GND 2                                   
+.G2                 Signal                                  
+.GP8                GND                                     
+.GBL                Bottom Layer                            
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM3                Board Shape                             
+.GM4                Dimensions                              
+------------------------------------------------------------------------------------------

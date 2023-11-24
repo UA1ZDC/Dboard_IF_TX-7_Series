@@ -1,5 +1,0 @@
-Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(153, 0, 255)
-Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Fuchsia
-Added Member To Class: ClassName=DBoard_conn Member=Component C? CAP
-Added Room: Name=CPLD
-Added Room: Name=DBoard_conn
